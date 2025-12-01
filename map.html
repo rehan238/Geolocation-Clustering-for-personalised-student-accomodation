@@ -1,0 +1,3274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_be2af121ca325b761e29e80ce3327f65 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_be2af121ca325b761e29e80ce3327f65" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_be2af121ca325b761e29e80ce3327f65 = L.map(
+                "map_be2af121ca325b761e29e80ce3327f65",
+                {
+                    center: [13.108, 77.637],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ba3dfd855cf9d57b3568f62440ffbe94 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ba3dfd855cf9d57b3568f62440ffbe94.addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var marker_aba5c6e2eb1e2d586f87cd74c04d2a60 = L.marker(
+                [13.108, 77.637],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_31419d78d5a24152705615b2046dfde2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9f0a8f895c55cee833ed7c0c00f7353 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4be45408d29a41ba2e7d40f2ba7318d8 = $(`<div id="html_4be45408d29a41ba2e7d40f2ba7318d8" style="width: 100.0%; height: 100.0%;">Your Location</div>`)[0];
+                popup_d9f0a8f895c55cee833ed7c0c00f7353.setContent(html_4be45408d29a41ba2e7d40f2ba7318d8);
+            
+        
+
+        marker_aba5c6e2eb1e2d586f87cd74c04d2a60.bindPopup(popup_d9f0a8f895c55cee833ed7c0c00f7353)
+        ;
+
+        
+    
+    
+                marker_aba5c6e2eb1e2d586f87cd74c04d2a60.setIcon(icon_31419d78d5a24152705615b2046dfde2);
+            
+    
+            var circle_marker_7cca3a2d9e4cdc6d49f8e29cd4a4bee5 = L.circleMarker(
+                [13.000170430342969, 77.6245454591405],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_92e145bc4cd994025a9e99a62417ef13 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_eeb4d9c63d272c05e15e8d49c4d5213d = $(`<div id="html_eeb4d9c63d272c05e15e8d49c4d5213d" style="width: 100.0%; height: 100.0%;"><b>Apartment Banaswadi main road cross hight street RD.</b><br>Distance: 12.01 km</div>`)[0];
+                popup_92e145bc4cd994025a9e99a62417ef13.setContent(html_eeb4d9c63d272c05e15e8d49c4d5213d);
+            
+        
+
+        circle_marker_7cca3a2d9e4cdc6d49f8e29cd4a4bee5.bindPopup(popup_92e145bc4cd994025a9e99a62417ef13)
+        ;
+
+        
+    
+    
+            var circle_marker_cb6a5b6f156cbe7d543ce327427847c8 = L.circleMarker(
+                [12.979005, 77.64562],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_4db59863b2eb44d33410be7cbb645ba6 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_2fb35b225f01ec9bd23426efb69ef01f = $(`<div id="html_2fb35b225f01ec9bd23426efb69ef01f" style="width: 100.0%; height: 100.0%;"><b>1/747, Rented Apartment</b><br>Distance: 14.30 km</div>`)[0];
+                popup_4db59863b2eb44d33410be7cbb645ba6.setContent(html_2fb35b225f01ec9bd23426efb69ef01f);
+            
+        
+
+        circle_marker_cb6a5b6f156cbe7d543ce327427847c8.bindPopup(popup_4db59863b2eb44d33410be7cbb645ba6)
+        ;
+
+        
+    
+    
+            var circle_marker_e620bba1705d37f8d58282ec2830a8f7 = L.circleMarker(
+                [13.039491797892286, 77.55558987238176],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_9587dfd31ac8a8d9392887c82f92806d = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_6f9f091dee3c5f93483a9d6bb3532503 = $(`<div id="html_6f9f091dee3c5f93483a9d6bb3532503" style="width: 100.0%; height: 100.0%;"><b>Dwellington Apartment</b><br>Distance: 11.64 km</div>`)[0];
+                popup_9587dfd31ac8a8d9392887c82f92806d.setContent(html_6f9f091dee3c5f93483a9d6bb3532503);
+            
+        
+
+        circle_marker_e620bba1705d37f8d58282ec2830a8f7.bindPopup(popup_9587dfd31ac8a8d9392887c82f92806d)
+        ;
+
+        
+    
+    
+            var circle_marker_76dc8b3362e6dccabb8cec64e4ac6e11 = L.circleMarker(
+                [13.06551306204412, 77.65039372266028],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_44b31cfc859ed2abc65e893db242aa73 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_e277ddee93b3c2a83747ec304d45f291 = $(`<div id="html_e277ddee93b3c2a83747ec304d45f291" style="width: 100.0%; height: 100.0%;"><b>ARGE Helios Apartment</b><br>Distance: 4.92 km</div>`)[0];
+                popup_44b31cfc859ed2abc65e893db242aa73.setContent(html_e277ddee93b3c2a83747ec304d45f291);
+            
+        
+
+        circle_marker_76dc8b3362e6dccabb8cec64e4ac6e11.bindPopup(popup_44b31cfc859ed2abc65e893db242aa73)
+        ;
+
+        
+    
+    
+            var circle_marker_a3444d9ebc22f3aaddab1773303e1775 = L.circleMarker(
+                [13.06925, 77.595719],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_9c3ba766a461696b1fd6ef4592bb6184 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_dfa522d937bd871fc90e6eb3110a7b10 = $(`<div id="html_dfa522d937bd871fc90e6eb3110a7b10" style="width: 100.0%; height: 100.0%;"><b>Shivaprakruthi Apartment</b><br>Distance: 6.20 km</div>`)[0];
+                popup_9c3ba766a461696b1fd6ef4592bb6184.setContent(html_dfa522d937bd871fc90e6eb3110a7b10);
+            
+        
+
+        circle_marker_a3444d9ebc22f3aaddab1773303e1775.bindPopup(popup_9c3ba766a461696b1fd6ef4592bb6184)
+        ;
+
+        
+    
+    
+            var circle_marker_57cd58978e5002f0e2050f7b95d209f7 = L.circleMarker(
+                [13.059434, 77.60579],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_402663bc3f6d8e248676fc282d35edf5 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_5e2a1371d8ebcfe933fb8b1b9b2322cc = $(`<div id="html_5e2a1371d8ebcfe933fb8b1b9b2322cc" style="width: 100.0%; height: 100.0%;"><b>Manima Apartment</b><br>Distance: 6.35 km</div>`)[0];
+                popup_402663bc3f6d8e248676fc282d35edf5.setContent(html_5e2a1371d8ebcfe933fb8b1b9b2322cc);
+            
+        
+
+        circle_marker_57cd58978e5002f0e2050f7b95d209f7.bindPopup(popup_402663bc3f6d8e248676fc282d35edf5)
+        ;
+
+        
+    
+    
+            var circle_marker_8bf06819adcd8f44a30bba0791288f24 = L.circleMarker(
+                [13.046933061340559, 77.63541464862233],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_04121faeb76a854ed7a65632cd10aa89 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_87f536a8f2b39cde14b896ef6acff896 = $(`<div id="html_87f536a8f2b39cde14b896ef6acff896" style="width: 100.0%; height: 100.0%;"><b>vm meridian apartment</b><br>Distance: 6.76 km</div>`)[0];
+                popup_04121faeb76a854ed7a65632cd10aa89.setContent(html_87f536a8f2b39cde14b896ef6acff896);
+            
+        
+
+        circle_marker_8bf06819adcd8f44a30bba0791288f24.bindPopup(popup_04121faeb76a854ed7a65632cd10aa89)
+        ;
+
+        
+    
+    
+            var circle_marker_6683c2b4a4427e53a1d8fa8a1311f7fd = L.circleMarker(
+                [13.028436685591299, 77.65197068452835],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_f944dab781dbe852370a78f18bb50c13 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_334cac1a58e732a47afe271d475323ce = $(`<div id="html_334cac1a58e732a47afe271d475323ce" style="width: 100.0%; height: 100.0%;"><b>Ambica Nivas Apartments</b><br>Distance: 8.95 km</div>`)[0];
+                popup_f944dab781dbe852370a78f18bb50c13.setContent(html_334cac1a58e732a47afe271d475323ce);
+            
+        
+
+        circle_marker_6683c2b4a4427e53a1d8fa8a1311f7fd.bindPopup(popup_f944dab781dbe852370a78f18bb50c13)
+        ;
+
+        
+    
+    
+            var circle_marker_24bb86f8c286c942ef1b60fddaffdab7 = L.circleMarker(
+                [13.030246, 77.64331],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_afcdce994c4ebe2e3bcaa229e4ed1238 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_671b9628f83d05e6e73aa15a866b7e72 = $(`<div id="html_671b9628f83d05e6e73aa15a866b7e72" style="width: 100.0%; height: 100.0%;"><b>Sahasra Grand Apartment</b><br>Distance: 8.63 km</div>`)[0];
+                popup_afcdce994c4ebe2e3bcaa229e4ed1238.setContent(html_671b9628f83d05e6e73aa15a866b7e72);
+            
+        
+
+        circle_marker_24bb86f8c286c942ef1b60fddaffdab7.bindPopup(popup_afcdce994c4ebe2e3bcaa229e4ed1238)
+        ;
+
+        
+    
+    
+            var circle_marker_4942d946ca3dbe6a8de099046f3d4fbc = L.circleMarker(
+                [13.062396, 77.587263],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_7064c050fbec77c81f04a0841b59a8aa = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_297067a6e24cd62fa7332c7b7d8959d6 = $(`<div id="html_297067a6e24cd62fa7332c7b7d8959d6" style="width: 100.0%; height: 100.0%;"><b>Stay Afford Serviced Apartment</b><br>Distance: 7.39 km</div>`)[0];
+                popup_7064c050fbec77c81f04a0841b59a8aa.setContent(html_297067a6e24cd62fa7332c7b7d8959d6);
+            
+        
+
+        circle_marker_4942d946ca3dbe6a8de099046f3d4fbc.bindPopup(popup_7064c050fbec77c81f04a0841b59a8aa)
+        ;
+
+        
+    
+    
+            var circle_marker_b3feeddc1e59b3c0067a49e9792f792d = L.circleMarker(
+                [13.028172, 77.64132],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_827a69434bb4dfd4fb4b009429c4832d = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_5d436de3a4d7984e79ced610b18757eb = $(`<div id="html_5d436de3a4d7984e79ced610b18757eb" style="width: 100.0%; height: 100.0%;"><b>Avyak Fortune Apartment Chellikere</b><br>Distance: 8.84 km</div>`)[0];
+                popup_827a69434bb4dfd4fb4b009429c4832d.setContent(html_5d436de3a4d7984e79ced610b18757eb);
+            
+        
+
+        circle_marker_b3feeddc1e59b3c0067a49e9792f792d.bindPopup(popup_827a69434bb4dfd4fb4b009429c4832d)
+        ;
+
+        
+    
+    
+            var circle_marker_6170bfcc76c1bd84a8da1fa88401725b = L.circleMarker(
+                [13.038358, 77.65272],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_98ae84850ffa455d749260aef214deec = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_670fff4e50f1ad764ccc25d07fd07477 = $(`<div id="html_670fff4e50f1ad764ccc25d07fd07477" style="width: 100.0%; height: 100.0%;"><b>Jai Bharathi Mansion Apartment</b><br>Distance: 7.89 km</div>`)[0];
+                popup_98ae84850ffa455d749260aef214deec.setContent(html_670fff4e50f1ad764ccc25d07fd07477);
+            
+        
+
+        circle_marker_6170bfcc76c1bd84a8da1fa88401725b.bindPopup(popup_98ae84850ffa455d749260aef214deec)
+        ;
+
+        
+    
+    
+            var circle_marker_35adb0ef9a09d99e4476e380b76c72aa = L.circleMarker(
+                [13.028825, 77.651995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_d03f08f7e783b3e1b5b0c6bec0f29019 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_2dd4b53fa31e3ebd70c4434d034ed762 = $(`<div id="html_2dd4b53fa31e3ebd70c4434d034ed762" style="width: 100.0%; height: 100.0%;"><b>Ambica Nivas Apartment</b><br>Distance: 8.91 km</div>`)[0];
+                popup_d03f08f7e783b3e1b5b0c6bec0f29019.setContent(html_2dd4b53fa31e3ebd70c4434d034ed762);
+            
+        
+
+        circle_marker_35adb0ef9a09d99e4476e380b76c72aa.bindPopup(popup_d03f08f7e783b3e1b5b0c6bec0f29019)
+        ;
+
+        
+    
+    
+            var circle_marker_61f988add778adb4def00cd788dc301b = L.circleMarker(
+                [13.06330037472305, 77.58067488670349],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_1f5fdb071794ebb638102590972400b5 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_6285bd155e8d5190cda658cea5eea888 = $(`<div id="html_6285bd155e8d5190cda658cea5eea888" style="width: 100.0%; height: 100.0%;"><b>Sri Sai Apartment</b><br>Distance: 7.86 km</div>`)[0];
+                popup_1f5fdb071794ebb638102590972400b5.setContent(html_6285bd155e8d5190cda658cea5eea888);
+            
+        
+
+        circle_marker_61f988add778adb4def00cd788dc301b.bindPopup(popup_1f5fdb071794ebb638102590972400b5)
+        ;
+
+        
+    
+    
+            var circle_marker_d4053d38940ef896103af4f075aeb1a0 = L.circleMarker(
+                [13.114882023314767, 77.56309032440184],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_6cdbc6aab492b69084d19aeb6dc9653f = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_e8d65feabd0aa156762beaf9a7781337 = $(`<div id="html_e8d65feabd0aa156762beaf9a7781337" style="width: 100.0%; height: 100.0%;"><b>GK Lakeview Apartment</b><br>Distance: 8.05 km</div>`)[0];
+                popup_6cdbc6aab492b69084d19aeb6dc9653f.setContent(html_e8d65feabd0aa156762beaf9a7781337);
+            
+        
+
+        circle_marker_d4053d38940ef896103af4f075aeb1a0.bindPopup(popup_6cdbc6aab492b69084d19aeb6dc9653f)
+        ;
+
+        
+    
+    
+            var circle_marker_11e71632ca01002d57ddc641fbd5c1cf = L.circleMarker(
+                [13.06480088033049, 77.5720979360512],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_779e08cfc71f59c6a94b8603d50c4894 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_fc66246a618cd70e8aae4acc7347f59b = $(`<div id="html_fc66246a618cd70e8aae4acc7347f59b" style="width: 100.0%; height: 100.0%;"><b>Shree Prakriti Apartment</b><br>Distance: 8.51 km</div>`)[0];
+                popup_779e08cfc71f59c6a94b8603d50c4894.setContent(html_fc66246a618cd70e8aae4acc7347f59b);
+            
+        
+
+        circle_marker_11e71632ca01002d57ddc641fbd5c1cf.bindPopup(popup_779e08cfc71f59c6a94b8603d50c4894)
+        ;
+
+        
+    
+    
+            var circle_marker_712b803bfe5c212c566a7c363e605c86 = L.circleMarker(
+                [13.028165, 77.6495],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_275d4e884f773392eb9940b6cf8c50ee = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_7a79977109a380fa0d63b3fa49f0be07 = $(`<div id="html_7a79977109a380fa0d63b3fa49f0be07" style="width: 100.0%; height: 100.0%;"><b>DS Max Keerthi Apartment</b><br>Distance: 8.94 km</div>`)[0];
+                popup_275d4e884f773392eb9940b6cf8c50ee.setContent(html_7a79977109a380fa0d63b3fa49f0be07);
+            
+        
+
+        circle_marker_712b803bfe5c212c566a7c363e605c86.bindPopup(popup_275d4e884f773392eb9940b6cf8c50ee)
+        ;
+
+        
+    
+    
+            var circle_marker_97fd41c12a963bc3f6306491d07e2582 = L.circleMarker(
+                [13.027832, 77.633713],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_e9565b099b20d0504948e6424ea77410 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_d98eaba79a184b0eb7ec789c38006c62 = $(`<div id="html_d98eaba79a184b0eb7ec789c38006c62" style="width: 100.0%; height: 100.0%;"><b>Royal Suites Apartment</b><br>Distance: 8.88 km</div>`)[0];
+                popup_e9565b099b20d0504948e6424ea77410.setContent(html_d98eaba79a184b0eb7ec789c38006c62);
+            
+        
+
+        circle_marker_97fd41c12a963bc3f6306491d07e2582.bindPopup(popup_e9565b099b20d0504948e6424ea77410)
+        ;
+
+        
+    
+    
+            var circle_marker_88a823d951c4b8bb7e440d93242bc265 = L.circleMarker(
+                [13.061164306991614, 77.56953452899677],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_4cfe1ac7e38a4362382a29c481bf19ab = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_39d3110e9f0dddf14be9dd54d675c226 = $(`<div id="html_39d3110e9f0dddf14be9dd54d675c226" style="width: 100.0%; height: 100.0%;"><b>krishna Greens apartment</b><br>Distance: 8.97 km</div>`)[0];
+                popup_4cfe1ac7e38a4362382a29c481bf19ab.setContent(html_39d3110e9f0dddf14be9dd54d675c226);
+            
+        
+
+        circle_marker_88a823d951c4b8bb7e440d93242bc265.bindPopup(popup_4cfe1ac7e38a4362382a29c481bf19ab)
+        ;
+
+        
+    
+    
+            var circle_marker_2babd3845ba18646368864f458b95ad7 = L.circleMarker(
+                [13.034047492665726, 77.59603852025482],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_c848ae3186b8ad9d53ad6c3224fd9618 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_e7fd05780a03f1e701e1b30cb0f42a10 = $(`<div id="html_e7fd05780a03f1e701e1b30cb0f42a10" style="width: 100.0%; height: 100.0%;"><b>Creative Classic Apartment</b><br>Distance: 9.31 km</div>`)[0];
+                popup_c848ae3186b8ad9d53ad6c3224fd9618.setContent(html_e7fd05780a03f1e701e1b30cb0f42a10);
+            
+        
+
+        circle_marker_2babd3845ba18646368864f458b95ad7.bindPopup(popup_c848ae3186b8ad9d53ad6c3224fd9618)
+        ;
+
+        
+    
+    
+            var circle_marker_78b0bb89296ba28a231d5ed3f9753ebb = L.circleMarker(
+                [13.022482, 77.640974],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_bd6f46517965a48e165ce3020a16b166 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_7a866d224c5bccc3d55ae63f8855e2f2 = $(`<div id="html_7a866d224c5bccc3d55ae63f8855e2f2" style="width: 100.0%; height: 100.0%;"><b>Roseline Apartment</b><br>Distance: 9.47 km</div>`)[0];
+                popup_bd6f46517965a48e165ce3020a16b166.setContent(html_7a866d224c5bccc3d55ae63f8855e2f2);
+            
+        
+
+        circle_marker_78b0bb89296ba28a231d5ed3f9753ebb.bindPopup(popup_bd6f46517965a48e165ce3020a16b166)
+        ;
+
+        
+    
+    
+            var circle_marker_54a2c69a4e78b3f071050705431ab8d0 = L.circleMarker(
+                [13.018242, 77.631315],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_58eeed7fe8fa25b84965d57471397b0f = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_956fc412cbdb676845372d9c6fab393c = $(`<div id="html_956fc412cbdb676845372d9c6fab393c" style="width: 100.0%; height: 100.0%;"><b>JP Gold Apartment</b><br>Distance: 9.95 km</div>`)[0];
+                popup_58eeed7fe8fa25b84965d57471397b0f.setContent(html_956fc412cbdb676845372d9c6fab393c);
+            
+        
+
+        circle_marker_54a2c69a4e78b3f071050705431ab8d0.bindPopup(popup_58eeed7fe8fa25b84965d57471397b0f)
+        ;
+
+        
+    
+    
+            var circle_marker_1cf04f07c2ee6e423b799211f89c7015 = L.circleMarker(
+                [13.029926070972964, 77.59263667696135],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_135fbab12de783f593c45c878f29978c = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_5f1b2737526aea5ea30e71ff868ce1b3 = $(`<div id="html_5f1b2737526aea5ea30e71ff868ce1b3" style="width: 100.0%; height: 100.0%;"><b>The Kaiser Serviced Apartment Hotel</b><br>Distance: 9.89 km</div>`)[0];
+                popup_135fbab12de783f593c45c878f29978c.setContent(html_5f1b2737526aea5ea30e71ff868ce1b3);
+            
+        
+
+        circle_marker_1cf04f07c2ee6e423b799211f89c7015.bindPopup(popup_135fbab12de783f593c45c878f29978c)
+        ;
+
+        
+    
+    
+            var circle_marker_3a2564421d152edcc72ad35de5f8433e = L.circleMarker(
+                [13.029264, 77.681173],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_f63d40e4778606d88c9591712373d7b8 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_3137dfb0527087e2fa4a86f69ce94dfd = $(`<div id="html_3137dfb0527087e2fa4a86f69ce94dfd" style="width: 100.0%; height: 100.0%;"><b>Vardeeni Heights Apartment</b><br>Distance: 9.94 km</div>`)[0];
+                popup_f63d40e4778606d88c9591712373d7b8.setContent(html_3137dfb0527087e2fa4a86f69ce94dfd);
+            
+        
+
+        circle_marker_3a2564421d152edcc72ad35de5f8433e.bindPopup(popup_f63d40e4778606d88c9591712373d7b8)
+        ;
+
+        
+    
+    
+            var circle_marker_7472f22b650ec4f37c04d16bc97aeb3a = L.circleMarker(
+                [13.036045, 77.581354],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_e884d418025d3da35be3a525f3f7eae6 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_f169bc7a6e8be585285d806a45e42275 = $(`<div id="html_f169bc7a6e8be585285d806a45e42275" style="width: 100.0%; height: 100.0%;"><b>Green Apartment</b><br>Distance: 9.99 km</div>`)[0];
+                popup_e884d418025d3da35be3a525f3f7eae6.setContent(html_f169bc7a6e8be585285d806a45e42275);
+            
+        
+
+        circle_marker_7472f22b650ec4f37c04d16bc97aeb3a.bindPopup(popup_e884d418025d3da35be3a525f3f7eae6)
+        ;
+
+        
+    
+    
+            var circle_marker_06120970c1e3b9c809efbd6faf2f8e3c = L.circleMarker(
+                [13.022323, 77.603381],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_869a6d678c40379a6de564dc95d91f4e = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_de6edda7565f165ce390b057fbeac05d = $(`<div id="html_de6edda7565f165ce390b057fbeac05d" style="width: 100.0%; height: 100.0%;"><b>Southern Residency Apartment</b><br>Distance: 10.16 km</div>`)[0];
+                popup_869a6d678c40379a6de564dc95d91f4e.setContent(html_de6edda7565f165ce390b057fbeac05d);
+            
+        
+
+        circle_marker_06120970c1e3b9c809efbd6faf2f8e3c.bindPopup(popup_869a6d678c40379a6de564dc95d91f4e)
+        ;
+
+        
+    
+    
+            var circle_marker_2000b90f7c028e7bc3edd336d08d69bc = L.circleMarker(
+                [13.01661052782208, 77.66737997531891],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_7bb9e3b8128f4170ba5c453fc95c5d34 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_1b10669ded23d05f2b5c5920a46e85b7 = $(`<div id="html_1b10669ded23d05f2b5c5920a46e85b7" style="width: 100.0%; height: 100.0%;"><b>R. K. Apartment 19A  Block</b><br>Distance: 10.63 km</div>`)[0];
+                popup_7bb9e3b8128f4170ba5c453fc95c5d34.setContent(html_1b10669ded23d05f2b5c5920a46e85b7);
+            
+        
+
+        circle_marker_2000b90f7c028e7bc3edd336d08d69bc.bindPopup(popup_7bb9e3b8128f4170ba5c453fc95c5d34)
+        ;
+
+        
+    
+    
+            var circle_marker_dcffbbb4cbc143b259bdf27dbd8ce0de = L.circleMarker(
+                [13.019332, 77.59707],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_76c7922bab718c80274637f57834204a = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_aa84aee19c2056a7c27beb6f19792c06 = $(`<div id="html_aa84aee19c2056a7c27beb6f19792c06" style="width: 100.0%; height: 100.0%;"><b>Krishna Legacy Apartment</b><br>Distance: 10.72 km</div>`)[0];
+                popup_76c7922bab718c80274637f57834204a.setContent(html_aa84aee19c2056a7c27beb6f19792c06);
+            
+        
+
+        circle_marker_dcffbbb4cbc143b259bdf27dbd8ce0de.bindPopup(popup_76c7922bab718c80274637f57834204a)
+        ;
+
+        
+    
+    
+            var circle_marker_3b53028f41543a895585cda45261c2fc = L.circleMarker(
+                [13.000635, 77.61793],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_b7cde577d761ee6ec72db7f3e6ef2fd3 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_52695c36d31b6a4c857b6ebeda6f5de8 = $(`<div id="html_52695c36d31b6a4c857b6ebeda6f5de8" style="width: 100.0%; height: 100.0%;"><b>AM Suites and Services Apartment</b><br>Distance: 12.06 km</div>`)[0];
+                popup_b7cde577d761ee6ec72db7f3e6ef2fd3.setContent(html_52695c36d31b6a4c857b6ebeda6f5de8);
+            
+        
+
+        circle_marker_3b53028f41543a895585cda45261c2fc.bindPopup(popup_b7cde577d761ee6ec72db7f3e6ef2fd3)
+        ;
+
+        
+    
+    
+            var circle_marker_c1340a39bf84936014970eb3ca958674 = L.circleMarker(
+                [13.006493, 77.640762],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_a0ecf2e78c8e32847cbf718729466e6c = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_252207d0779f9c7f0dd2ef69820edaa3 = $(`<div id="html_252207d0779f9c7f0dd2ef69820edaa3" style="width: 100.0%; height: 100.0%;"><b>V Mills Service Apartment</b><br>Distance: 11.24 km</div>`)[0];
+                popup_a0ecf2e78c8e32847cbf718729466e6c.setContent(html_252207d0779f9c7f0dd2ef69820edaa3);
+            
+        
+
+        circle_marker_c1340a39bf84936014970eb3ca958674.bindPopup(popup_a0ecf2e78c8e32847cbf718729466e6c)
+        ;
+
+        
+    
+    
+            var circle_marker_00959f00eaa077e789525aa671ac5ebc = L.circleMarker(
+                [13.009320541053274, 77.66235093523174],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_2a7085c36317a2bde8be01fb9193d86e = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_0c026b421329094cbf0cf8d3f77ac8bb = $(`<div id="html_0c026b421329094cbf0cf8d3f77ac8bb" style="width: 100.0%; height: 100.0%;"><b>Royal Heritage Apartment Gym</b><br>Distance: 11.26 km</div>`)[0];
+                popup_2a7085c36317a2bde8be01fb9193d86e.setContent(html_0c026b421329094cbf0cf8d3f77ac8bb);
+            
+        
+
+        circle_marker_00959f00eaa077e789525aa671ac5ebc.bindPopup(popup_2a7085c36317a2bde8be01fb9193d86e)
+        ;
+
+        
+    
+    
+            var circle_marker_2bbaea9b372bcb3be138c1c6887a58d1 = L.circleMarker(
+                [13.006282785187839, 77.65714987231426],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_1e02514db621c47f16b1885453530587 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_80ab546d5369d52b1e8cea0a5c25bdb3 = $(`<div id="html_80ab546d5369d52b1e8cea0a5c25bdb3" style="width: 100.0%; height: 100.0%;"><b>Doctor's apartment</b><br>Distance: 11.46 km</div>`)[0];
+                popup_1e02514db621c47f16b1885453530587.setContent(html_80ab546d5369d52b1e8cea0a5c25bdb3);
+            
+        
+
+        circle_marker_2bbaea9b372bcb3be138c1c6887a58d1.bindPopup(popup_1e02514db621c47f16b1885453530587)
+        ;
+
+        
+    
+    
+            var circle_marker_eee91730ec7f2a5c9b1f3a9f931aa1f6 = L.circleMarker(
+                [13.039570229610394, 77.55555230539213],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_bdbb1e80b6f1ee3ec5ec370a862f18cd = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_c4d9b3ffcd6af4202886f1c5ba9999e2 = $(`<div id="html_c4d9b3ffcd6af4202886f1c5ba9999e2" style="width: 100.0%; height: 100.0%;"><b>Dwellington Apartment Swimming Pool</b><br>Distance: 11.63 km</div>`)[0];
+                popup_bdbb1e80b6f1ee3ec5ec370a862f18cd.setContent(html_c4d9b3ffcd6af4202886f1c5ba9999e2);
+            
+        
+
+        circle_marker_eee91730ec7f2a5c9b1f3a9f931aa1f6.bindPopup(popup_bdbb1e80b6f1ee3ec5ec370a862f18cd)
+        ;
+
+        
+    
+    
+            var circle_marker_a1edd6f0d2e40f9e596a2e7cc682e737 = L.circleMarker(
+                [13.039522, 77.555643],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_33fee7201e7853d0b62e0abc056f11cd = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_f29f793e55e6874975d96ec518ae54a7 = $(`<div id="html_f29f793e55e6874975d96ec518ae54a7" style="width: 100.0%; height: 100.0%;"><b>Dwellington Apartment Rooftop</b><br>Distance: 11.63 km</div>`)[0];
+                popup_33fee7201e7853d0b62e0abc056f11cd.setContent(html_f29f793e55e6874975d96ec518ae54a7);
+            
+        
+
+        circle_marker_a1edd6f0d2e40f9e596a2e7cc682e737.bindPopup(popup_33fee7201e7853d0b62e0abc056f11cd)
+        ;
+
+        
+    
+    
+            var circle_marker_3c7ed94712be821c966d6c91d8c3382d = L.circleMarker(
+                [13.04005, 77.554501],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_db34b20a376c0f80926665d25fae4d41 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_4d635f6c33ae4f48a593d6fe75b7242a = $(`<div id="html_4d635f6c33ae4f48a593d6fe75b7242a" style="width: 100.0%; height: 100.0%;"><b>H Block,Sadhana Apartment</b><br>Distance: 11.69 km</div>`)[0];
+                popup_db34b20a376c0f80926665d25fae4d41.setContent(html_4d635f6c33ae4f48a593d6fe75b7242a);
+            
+        
+
+        circle_marker_3c7ed94712be821c966d6c91d8c3382d.bindPopup(popup_db34b20a376c0f80926665d25fae4d41)
+        ;
+
+        
+    
+    
+            var circle_marker_67148803e7ba0af32b709594cb14d574 = L.circleMarker(
+                [13.040211, 77.554801],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_841f1c673c214322cff9517556d53615 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_2e380569b0cc1aec6bd446dbce523675 = $(`<div id="html_2e380569b0cc1aec6bd446dbce523675" style="width: 100.0%; height: 100.0%;"><b>J Block, Shriram Sadhana Apartment</b><br>Distance: 11.65 km</div>`)[0];
+                popup_841f1c673c214322cff9517556d53615.setContent(html_2e380569b0cc1aec6bd446dbce523675);
+            
+        
+
+        circle_marker_67148803e7ba0af32b709594cb14d574.bindPopup(popup_841f1c673c214322cff9517556d53615)
+        ;
+
+        
+    
+    
+            var circle_marker_e65d349197ed8fc18393d852143b2cb7 = L.circleMarker(
+                [12.999668, 77.607176],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_42d560a9b0514ce0f96806517f44686b = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_9c00113ab5b738c0ffc4ab72c70a6cd7 = $(`<div id="html_9c00113ab5b738c0ffc4ab72c70a6cd7" style="width: 100.0%; height: 100.0%;"><b>Prema Mandira Apartment</b><br>Distance: 12.41 km</div>`)[0];
+                popup_42d560a9b0514ce0f96806517f44686b.setContent(html_9c00113ab5b738c0ffc4ab72c70a6cd7);
+            
+        
+
+        circle_marker_e65d349197ed8fc18393d852143b2cb7.bindPopup(popup_42d560a9b0514ce0f96806517f44686b)
+        ;
+
+        
+    
+    
+            var circle_marker_8aa037ccfe710a24a87d0f238e6b63d7 = L.circleMarker(
+                [12.987109, 77.617972],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_1551cfd2ee88563eef04c315df56662c = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_c9894ff55d8f001360bcaa454e7ccf8e = $(`<div id="html_c9894ff55d8f001360bcaa454e7ccf8e" style="width: 100.0%; height: 100.0%;"><b>Aster Vue Service Apartment</b><br>Distance: 13.53 km</div>`)[0];
+                popup_1551cfd2ee88563eef04c315df56662c.setContent(html_c9894ff55d8f001360bcaa454e7ccf8e);
+            
+        
+
+        circle_marker_8aa037ccfe710a24a87d0f238e6b63d7.bindPopup(popup_1551cfd2ee88563eef04c315df56662c)
+        ;
+
+        
+    
+    
+            var circle_marker_75b80d4ff80cf0325609f685c06e29c5 = L.circleMarker(
+                [12.997299, 77.62226],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_62fd7226e01b1f0a7af56a5f1c4b1fcc = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_985ff9606ef7484ca58f5c7f50c7677a = $(`<div id="html_985ff9606ef7484ca58f5c7f50c7677a" style="width: 100.0%; height: 100.0%;"><b>P J Vinayaka Apartment</b><br>Distance: 12.35 km</div>`)[0];
+                popup_62fd7226e01b1f0a7af56a5f1c4b1fcc.setContent(html_985ff9606ef7484ca58f5c7f50c7677a);
+            
+        
+
+        circle_marker_75b80d4ff80cf0325609f685c06e29c5.bindPopup(popup_62fd7226e01b1f0a7af56a5f1c4b1fcc)
+        ;
+
+        
+    
+    
+            var circle_marker_e03707c8f4087411c9fe40ed352b9066 = L.circleMarker(
+                [13.03947021158443, 77.55673171336488],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_6a6bcca733bd750159645ffaa1b1ad6d = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_18768b08e87c1d06fef4d544c3df785d = $(`<div id="html_18768b08e87c1d06fef4d544c3df785d" style="width: 100.0%; height: 100.0%;"><b>Divya MSR Gateway Apartment</b><br>Distance: 11.54 km</div>`)[0];
+                popup_6a6bcca733bd750159645ffaa1b1ad6d.setContent(html_18768b08e87c1d06fef4d544c3df785d);
+            
+        
+
+        circle_marker_e03707c8f4087411c9fe40ed352b9066.bindPopup(popup_6a6bcca733bd750159645ffaa1b1ad6d)
+        ;
+
+        
+    
+    
+            var circle_marker_e5e7afb3ab9fdff97229135e0ffc0b36 = L.circleMarker(
+                [13.007421, 77.577103],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_a0df069c5a5695019a8d7bfe8c407bd2 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_60017097d7e68c0d9f6caa97ca7de4c8 = $(`<div id="html_60017097d7e68c0d9f6caa97ca7de4c8" style="width: 100.0%; height: 100.0%;"><b>Tatva Service Apartment</b><br>Distance: 12.88 km</div>`)[0];
+                popup_a0df069c5a5695019a8d7bfe8c407bd2.setContent(html_60017097d7e68c0d9f6caa97ca7de4c8);
+            
+        
+
+        circle_marker_e5e7afb3ab9fdff97229135e0ffc0b36.bindPopup(popup_a0df069c5a5695019a8d7bfe8c407bd2)
+        ;
+
+        
+    
+    
+            var circle_marker_92daf94365be1e74559a10d8f9d9f338 = L.circleMarker(
+                [13.010092, 77.577198],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_c9d687999771196655602006165249d5 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_572ef4afbba3f08a257f7f831c2b7d16 = $(`<div id="html_572ef4afbba3f08a257f7f831c2b7d16" style="width: 100.0%; height: 100.0%;"><b>Lavina Courts Apartment</b><br>Distance: 12.63 km</div>`)[0];
+                popup_c9d687999771196655602006165249d5.setContent(html_572ef4afbba3f08a257f7f831c2b7d16);
+            
+        
+
+        circle_marker_92daf94365be1e74559a10d8f9d9f338.bindPopup(popup_c9d687999771196655602006165249d5)
+        ;
+
+        
+    
+    
+            var circle_marker_de9f6f16b90bc8bded2e067a57b4712b = L.circleMarker(
+                [12.996234, 77.68527],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_61e178fc5a3c843fdc91143fa994977e = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_c9671cd749a2b0ab6bc2ca9ac3f63e08 = $(`<div id="html_c9671cd749a2b0ab6bc2ca9ac3f63e08" style="width: 100.0%; height: 100.0%;"><b>Suvarna Grande Homes and Service Apartment Pumpwell</b><br>Distance: 13.43 km</div>`)[0];
+                popup_61e178fc5a3c843fdc91143fa994977e.setContent(html_c9671cd749a2b0ab6bc2ca9ac3f63e08);
+            
+        
+
+        circle_marker_de9f6f16b90bc8bded2e067a57b4712b.bindPopup(popup_61e178fc5a3c843fdc91143fa994977e)
+        ;
+
+        
+    
+    
+            var circle_marker_89117cf5c4060c3635ccd6a4689cb49e = L.circleMarker(
+                [12.982382774353027, 77.65662384033203],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_b09b6083605b4215bdc63ff3fe665d3b = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_91516d4d5b8952d037d9118c4827ba8b = $(`<div id="html_91516d4d5b8952d037d9118c4827ba8b" style="width: 100.0%; height: 100.0%;"><b>Ashwini Apartment</b><br>Distance: 14.06 km</div>`)[0];
+                popup_b09b6083605b4215bdc63ff3fe665d3b.setContent(html_91516d4d5b8952d037d9118c4827ba8b);
+            
+        
+
+        circle_marker_89117cf5c4060c3635ccd6a4689cb49e.bindPopup(popup_b09b6083605b4215bdc63ff3fe665d3b)
+        ;
+
+        
+    
+    
+            var circle_marker_bf12af1231843332d461696068267293 = L.circleMarker(
+                [13.00848, 77.562412],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_23784dc32b7fd6efccf98555d04fe4ac = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_15c8313d94d474e37bc5fd2eac77b1c7 = $(`<div id="html_15c8313d94d474e37bc5fd2eac77b1c7" style="width: 100.0%; height: 100.0%;"><b>KT23 Apartment</b><br>Distance: 13.66 km</div>`)[0];
+                popup_23784dc32b7fd6efccf98555d04fe4ac.setContent(html_15c8313d94d474e37bc5fd2eac77b1c7);
+            
+        
+
+        circle_marker_bf12af1231843332d461696068267293.bindPopup(popup_23784dc32b7fd6efccf98555d04fe4ac)
+        ;
+
+        
+    
+    
+            var circle_marker_2b7f40025d3e516c883d92c94af0aff4 = L.circleMarker(
+                [12.991086, 77.68382],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_d870045625cb53922c0710673868f47f = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_9f8d69e4e4cdb94d631d08ff59dd5ff1 = $(`<div id="html_9f8d69e4e4cdb94d631d08ff59dd5ff1" style="width: 100.0%; height: 100.0%;"><b>Neni Classic Apartment</b><br>Distance: 13.90 km</div>`)[0];
+                popup_d870045625cb53922c0710673868f47f.setContent(html_9f8d69e4e4cdb94d631d08ff59dd5ff1);
+            
+        
+
+        circle_marker_2b7f40025d3e516c883d92c94af0aff4.bindPopup(popup_d870045625cb53922c0710673868f47f)
+        ;
+
+        
+    
+    
+            var circle_marker_3190bcae2d1d7c2dabd00c5741efd17a = L.circleMarker(
+                [13.017283564785412, 77.71015981430844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_0f3c1f172a20f023cea6f50a39e0fb20 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_fb44dd8e6db80d8fca81244f664546c1 = $(`<div id="html_fb44dd8e6db80d8fca81244f664546c1" style="width: 100.0%; height: 100.0%;"><b>Teja Nivas Apartment</b><br>Distance: 12.79 km</div>`)[0];
+                popup_0f3c1f172a20f023cea6f50a39e0fb20.setContent(html_fb44dd8e6db80d8fca81244f664546c1);
+            
+        
+
+        circle_marker_3190bcae2d1d7c2dabd00c5741efd17a.bindPopup(popup_0f3c1f172a20f023cea6f50a39e0fb20)
+        ;
+
+        
+    
+    
+            var circle_marker_1d79bcd1527bd78d4c86e505c1a35a4a = L.circleMarker(
+                [13.00517729269146, 77.5631425495395],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_e44a847c11ca1922b5c63d6665446af8 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_93f4c55dc6ea2044d7a4401c30c73792 = $(`<div id="html_93f4c55dc6ea2044d7a4401c30c73792" style="width: 100.0%; height: 100.0%;"><b>Surya Nest Apartment</b><br>Distance: 13.91 km</div>`)[0];
+                popup_e44a847c11ca1922b5c63d6665446af8.setContent(html_93f4c55dc6ea2044d7a4401c30c73792);
+            
+        
+
+        circle_marker_1d79bcd1527bd78d4c86e505c1a35a4a.bindPopup(popup_e44a847c11ca1922b5c63d6665446af8)
+        ;
+
+        
+    
+    
+            var circle_marker_288d2e92e13cde2e4e02614ad0de7c8d = L.circleMarker(
+                [13.007784, 77.554855],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_d702f8230164d5485fd7c3ebe34c06a2 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_1d405d56d4a8e3250e3e01177a0c947a = $(`<div id="html_1d405d56d4a8e3250e3e01177a0c947a" style="width: 100.0%; height: 100.0%;"><b>The Chalet Corporate Apartment</b><br>Distance: 14.22 km</div>`)[0];
+                popup_d702f8230164d5485fd7c3ebe34c06a2.setContent(html_1d405d56d4a8e3250e3e01177a0c947a);
+            
+        
+
+        circle_marker_288d2e92e13cde2e4e02614ad0de7c8d.bindPopup(popup_d702f8230164d5485fd7c3ebe34c06a2)
+        ;
+
+        
+    
+    
+            var circle_marker_41baae90aef92c92e1e5b691e0fbcbdd = L.circleMarker(
+                [12.981603, 77.600349],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+        var popup_bb13b02a0bed965651872d072f0bca71 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_8e7a9bc929ebfdeafbdd2312a383f25e = $(`<div id="html_8e7a9bc929ebfdeafbdd2312a383f25e" style="width: 100.0%; height: 100.0%;"><b>104 TARA APARTMENT</b><br>Distance: 14.54 km</div>`)[0];
+                popup_bb13b02a0bed965651872d072f0bca71.setContent(html_8e7a9bc929ebfdeafbdd2312a383f25e);
+            
+        
+
+        circle_marker_41baae90aef92c92e1e5b691e0fbcbdd.bindPopup(popup_bb13b02a0bed965651872d072f0bca71)
+        ;
+
+        
+    
+    
+            var marker_151e436d9dea9bf4046c078eb2381ca8 = L.marker(
+                [12.985939070267452, 77.64485478401184],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_b4965b1c065003aa9dc156d8ce2bdccd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9590340a5fdf4252aabda6982676bf4d = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_29ad96fb079e47069c998b9d85bbe365 = $(`<div id="html_29ad96fb079e47069c998b9d85bbe365" style="width: 100.0%; height: 100.0%;">Vivekananda Road Metro Station</b><br>Distance: 13.53 km</div>`)[0];
+                popup_9590340a5fdf4252aabda6982676bf4d.setContent(html_29ad96fb079e47069c998b9d85bbe365);
+            
+        
+
+        marker_151e436d9dea9bf4046c078eb2381ca8.bindPopup(popup_9590340a5fdf4252aabda6982676bf4d)
+        ;
+
+        
+    
+    
+                marker_151e436d9dea9bf4046c078eb2381ca8.setIcon(icon_b4965b1c065003aa9dc156d8ce2bdccd);
+            
+    
+            var marker_c9a356cf64d180639bc38fb44a9344d3 = L.marker(
+                [12.991302144537357, 77.65520811080933],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_39d2bf07fcfef5304cabb674bf136887 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_739e3da577b05a2400fac4627a1cc64d = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_3696b867dfdfb55faddf7f06253daa93 = $(`<div id="html_3696b867dfdfb55faddf7f06253daa93" style="width: 100.0%; height: 100.0%;">Baiyappanahalli Metro Station</b><br>Distance: 13.06 km</div>`)[0];
+                popup_739e3da577b05a2400fac4627a1cc64d.setContent(html_3696b867dfdfb55faddf7f06253daa93);
+            
+        
+
+        marker_c9a356cf64d180639bc38fb44a9344d3.bindPopup(popup_739e3da577b05a2400fac4627a1cc64d)
+        ;
+
+        
+    
+    
+                marker_c9a356cf64d180639bc38fb44a9344d3.setIcon(icon_39d2bf07fcfef5304cabb674bf136887);
+            
+    
+            var marker_738f5b75ddda5908265e6d24b89e48a7 = L.marker(
+                [12.972948301485474, 77.61733977675814],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_9bbbd7c1c8b9fe077c33646659e5dfd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_685623042e05374da19a2824bce827bb = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_d836a2e6c38e9bf7c570957dd45b14a6 = $(`<div id="html_d836a2e6c38e9bf7c570957dd45b14a6" style="width: 100.0%; height: 100.0%;">Trinity Metro Station</b><br>Distance: 15.09 km</div>`)[0];
+                popup_685623042e05374da19a2824bce827bb.setContent(html_d836a2e6c38e9bf7c570957dd45b14a6);
+            
+        
+
+        marker_738f5b75ddda5908265e6d24b89e48a7.bindPopup(popup_685623042e05374da19a2824bce827bb)
+        ;
+
+        
+    
+    
+                marker_738f5b75ddda5908265e6d24b89e48a7.setIcon(icon_9bbbd7c1c8b9fe077c33646659e5dfd5);
+            
+    
+            var marker_3356ae396bef7d3250242a2cb9f5fac5 = L.marker(
+                [12.978266443278734, 77.63863385967737],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_caf8a2adf19184c57a96bf9a9b26637e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee7e4cb5bbcd699a6d58a71e084fd201 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_03a196dc19baed7af05183c10b4ced8d = $(`<div id="html_03a196dc19baed7af05183c10b4ced8d" style="width: 100.0%; height: 100.0%;">Indiranagar Metro Station</b><br>Distance: 14.35 km</div>`)[0];
+                popup_ee7e4cb5bbcd699a6d58a71e084fd201.setContent(html_03a196dc19baed7af05183c10b4ced8d);
+            
+        
+
+        marker_3356ae396bef7d3250242a2cb9f5fac5.bindPopup(popup_ee7e4cb5bbcd699a6d58a71e084fd201)
+        ;
+
+        
+    
+    
+                marker_3356ae396bef7d3250242a2cb9f5fac5.setIcon(icon_caf8a2adf19184c57a96bf9a9b26637e);
+            
+    
+            var marker_3fc63f1d1750e57d2f82cb0af7cf70ed = L.marker(
+                [12.97613377217214, 77.57148227589698],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_2bb415282c97d6c2da4bc2b1db8c434a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fdad3d5b11ed03705d2420a7db42cb41 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_6c4cc8082f4777854f9c0079168632e2 = $(`<div id="html_6c4cc8082f4777854f9c0079168632e2" style="width: 100.0%; height: 100.0%;">Kempegowda Metro Station</b><br>Distance: 16.23 km</div>`)[0];
+                popup_fdad3d5b11ed03705d2420a7db42cb41.setContent(html_6c4cc8082f4777854f9c0079168632e2);
+            
+        
+
+        marker_3fc63f1d1750e57d2f82cb0af7cf70ed.bindPopup(popup_fdad3d5b11ed03705d2420a7db42cb41)
+        ;
+
+        
+    
+    
+                marker_3fc63f1d1750e57d2f82cb0af7cf70ed.setIcon(icon_2bb415282c97d6c2da4bc2b1db8c434a);
+            
+    
+            var marker_17ced06eb303f981938a7f9d0d0a0372 = L.marker(
+                [12.975494856600486, 77.60677747428417],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_78d323fcbda6822db2eac3ee1c3dee01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b98d38a4567b1ea9d57d6c7060d36d9 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_708dea0abb9eb068827a047021a4e7eb = $(`<div id="html_708dea0abb9eb068827a047021a4e7eb" style="width: 100.0%; height: 100.0%;">MG Road Metro Station</b><br>Distance: 15.02 km</div>`)[0];
+                popup_3b98d38a4567b1ea9d57d6c7060d36d9.setContent(html_708dea0abb9eb068827a047021a4e7eb);
+            
+        
+
+        marker_17ced06eb303f981938a7f9d0d0a0372.bindPopup(popup_3b98d38a4567b1ea9d57d6c7060d36d9)
+        ;
+
+        
+    
+    
+                marker_17ced06eb303f981938a7f9d0d0a0372.setIcon(icon_78d323fcbda6822db2eac3ee1c3dee01);
+            
+    
+            var marker_f4af23c9f8711609f5b26cee304a14bb = L.marker(
+                [12.970734454583726, 77.53733524403269],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_02e85b50391ba5516546c6e4aed2aefd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_527c3c30f0928cd2d688a0f565c069ad = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_717d44815a9955b9703c069b1459a967 = $(`<div id="html_717d44815a9955b9703c069b1459a967" style="width: 100.0%; height: 100.0%;">Vijaynagar Metro Station</b><br>Distance: 18.64 km</div>`)[0];
+                popup_527c3c30f0928cd2d688a0f565c069ad.setContent(html_717d44815a9955b9703c069b1459a967);
+            
+        
+
+        marker_f4af23c9f8711609f5b26cee304a14bb.bindPopup(popup_527c3c30f0928cd2d688a0f565c069ad)
+        ;
+
+        
+    
+    
+                marker_f4af23c9f8711609f5b26cee304a14bb.setIcon(icon_02e85b50391ba5516546c6e4aed2aefd);
+            
+    
+            var marker_1351877b41f5083425c89b6eaa63712e = L.marker(
+                [13.007766287922427, 77.54868930229088],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_58aa2db5132f0c6a9cb13a06baaac6f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_363ccf443f2ea6895ff3a9f9798877c1 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_dc586854c1bd2a3d46b00ede5ddd79b6 = $(`<div id="html_dc586854c1bd2a3d46b00ede5ddd79b6" style="width: 100.0%; height: 100.0%;">Mahalakshmi Metro Station</b><br>Distance: 14.65 km</div>`)[0];
+                popup_363ccf443f2ea6895ff3a9f9798877c1.setContent(html_dc586854c1bd2a3d46b00ede5ddd79b6);
+            
+        
+
+        marker_1351877b41f5083425c89b6eaa63712e.bindPopup(popup_363ccf443f2ea6895ff3a9f9798877c1)
+        ;
+
+        
+    
+    
+                marker_1351877b41f5083425c89b6eaa63712e.setIcon(icon_58aa2db5132f0c6a9cb13a06baaac6f3);
+            
+    
+            var marker_ec8827eb0a3fb1958176c8f22782a281 = L.marker(
+                [13.024708598106553, 77.54780480677714],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_387e799329e9756f07bf15f8e61f9da9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a84c49d8122c0799dc7417bbace211a8 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_3783fa2e17947b9b2bd899bf835e849c = $(`<div id="html_3783fa2e17947b9b2bd899bf835e849c" style="width: 100.0%; height: 100.0%;">Yeshwantpur Metro Station</b><br>Distance: 13.36 km</div>`)[0];
+                popup_a84c49d8122c0799dc7417bbace211a8.setContent(html_3783fa2e17947b9b2bd899bf835e849c);
+            
+        
+
+        marker_ec8827eb0a3fb1958176c8f22782a281.bindPopup(popup_a84c49d8122c0799dc7417bbace211a8)
+        ;
+
+        
+    
+    
+                marker_ec8827eb0a3fb1958176c8f22782a281.setIcon(icon_387e799329e9756f07bf15f8e61f9da9);
+            
+    
+            var marker_116fb77bf59b762a0e47eb1a208d0d8b = L.marker(
+                [12.976108422537322, 77.62637477866377],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_3e0880e24bf38861d13363c74e2b96fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3bc68ba2cfd8ca8b6d06a6927a85a345 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_24276d59fb5c4b1839dd426b459a1f3a = $(`<div id="html_24276d59fb5c4b1839dd426b459a1f3a" style="width: 100.0%; height: 100.0%;">Ulsoor Metro Station</b><br>Distance: 14.64 km</div>`)[0];
+                popup_3bc68ba2cfd8ca8b6d06a6927a85a345.setContent(html_24276d59fb5c4b1839dd426b459a1f3a);
+            
+        
+
+        marker_116fb77bf59b762a0e47eb1a208d0d8b.bindPopup(popup_3bc68ba2cfd8ca8b6d06a6927a85a345)
+        ;
+
+        
+    
+    
+                marker_116fb77bf59b762a0e47eb1a208d0d8b.setIcon(icon_3e0880e24bf38861d13363c74e2b96fe);
+            
+    
+            var marker_f9f7f2c9ee8cbc35d9fa421ebf6ac238 = L.marker(
+                [12.9753685, 77.56216],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_7b230077ce2e79a44421dd801d20772f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0fa5ab44584930f399ef14630644223 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_c473e9dbf55fed9e6d4342b80853be7a = $(`<div id="html_c473e9dbf55fed9e6d4342b80853be7a" style="width: 100.0%; height: 100.0%;">City Railway Metro Station</b><br>Distance: 16.77 km</div>`)[0];
+                popup_c0fa5ab44584930f399ef14630644223.setContent(html_c473e9dbf55fed9e6d4342b80853be7a);
+            
+        
+
+        marker_f9f7f2c9ee8cbc35d9fa421ebf6ac238.bindPopup(popup_c0fa5ab44584930f399ef14630644223)
+        ;
+
+        
+    
+    
+                marker_f9f7f2c9ee8cbc35d9fa421ebf6ac238.setIcon(icon_7b230077ce2e79a44421dd801d20772f);
+            
+    
+            var marker_071c23a9d19024b0d3c347620bc4cbe1 = L.marker(
+                [12.991217, 77.570917],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_b49d7074f6df21d4948c89321f28e3e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76fd45baf6a565d32688a0fe9b8edffe = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_556e776556d448da0552e3c1d17e7938 = $(`<div id="html_556e776556d448da0552e3c1d17e7938" style="width: 100.0%; height: 100.0%;">Mantri Square Sampige Road Metro Station</b><br>Distance: 14.77 km</div>`)[0];
+                popup_76fd45baf6a565d32688a0fe9b8edffe.setContent(html_556e776556d448da0552e3c1d17e7938);
+            
+        
+
+        marker_071c23a9d19024b0d3c347620bc4cbe1.bindPopup(popup_76fd45baf6a565d32688a0fe9b8edffe)
+        ;
+
+        
+    
+    
+                marker_071c23a9d19024b0d3c347620bc4cbe1.setIcon(icon_b49d7074f6df21d4948c89321f28e3e0);
+            
+    
+            var marker_8150d48472a18f9659d9e86d901571b9 = L.marker(
+                [12.980436826078725, 77.59787765529515],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_0bc163d563dbfc6a0b91506cc965e16c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d500d28f7392cd8ad2bfdc9c463ebf1 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_aacb52ca78efa97e178b32e006ebc4e6 = $(`<div id="html_aacb52ca78efa97e178b32e006ebc4e6" style="width: 100.0%; height: 100.0%;">Cubbon Park Metro Station</b><br>Distance: 14.74 km</div>`)[0];
+                popup_4d500d28f7392cd8ad2bfdc9c463ebf1.setContent(html_aacb52ca78efa97e178b32e006ebc4e6);
+            
+        
+
+        marker_8150d48472a18f9659d9e86d901571b9.bindPopup(popup_4d500d28f7392cd8ad2bfdc9c463ebf1)
+        ;
+
+        
+    
+    
+                marker_8150d48472a18f9659d9e86d901571b9.setIcon(icon_0bc163d563dbfc6a0b91506cc965e16c);
+            
+    
+            var marker_87f22c5b2cfc06b55ca5d323b92db84c = L.marker(
+                [12.999471868090993, 77.54996565075852],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_97e70e7112dc6a940ac29be56f9e300d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_616566c983d774fd23e3eb92c22b2cbd = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_9098ca139b959812a3916cf8f68d3395 = $(`<div id="html_9098ca139b959812a3916cf8f68d3395" style="width: 100.0%; height: 100.0%;">Rajajinagar Metro Station</b><br>Distance: 15.27 km</div>`)[0];
+                popup_616566c983d774fd23e3eb92c22b2cbd.setContent(html_9098ca139b959812a3916cf8f68d3395);
+            
+        
+
+        marker_87f22c5b2cfc06b55ca5d323b92db84c.bindPopup(popup_616566c983d774fd23e3eb92c22b2cbd)
+        ;
+
+        
+    
+    
+                marker_87f22c5b2cfc06b55ca5d323b92db84c.setIcon(icon_97e70e7112dc6a940ac29be56f9e300d);
+            
+    
+            var marker_ee1db741628f0eb608dcf66ed33675b5 = L.marker(
+                [13.036313, 77.525475],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_b8744d16499f874e87bea4509d4ebaef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3582c3dab64860189ecb8fba6160a15c = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_fee2fc6d5c2f13350f140f33f877a3f7 = $(`<div id="html_fee2fc6d5c2f13350f140f33f877a3f7" style="width: 100.0%; height: 100.0%;">Peenya Industrial Metro Station</b><br>Distance: 14.46 km</div>`)[0];
+                popup_3582c3dab64860189ecb8fba6160a15c.setContent(html_fee2fc6d5c2f13350f140f33f877a3f7);
+            
+        
+
+        marker_ee1db741628f0eb608dcf66ed33675b5.bindPopup(popup_3582c3dab64860189ecb8fba6160a15c)
+        ;
+
+        
+    
+    
+                marker_ee1db741628f0eb608dcf66ed33675b5.setIcon(icon_b8744d16499f874e87bea4509d4ebaef);
+            
+    
+            var marker_101a181783a9381646d40cc300e075d0 = L.marker(
+                [13.043328, 77.512654],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_9b605f94d3031f4598196f126e27946e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_354c9387d9ad753622753fd667aeefe3 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_d1c3a8a81007f8f878b7ca0b78b79d09 = $(`<div id="html_d1c3a8a81007f8f878b7ca0b78b79d09" style="width: 100.0%; height: 100.0%;">Dasarahalli metro station</b><br>Distance: 15.27 km</div>`)[0];
+                popup_354c9387d9ad753622753fd667aeefe3.setContent(html_d1c3a8a81007f8f878b7ca0b78b79d09);
+            
+        
+
+        marker_101a181783a9381646d40cc300e075d0.bindPopup(popup_354c9387d9ad753622753fd667aeefe3)
+        ;
+
+        
+    
+    
+                marker_101a181783a9381646d40cc300e075d0.setIcon(icon_9b605f94d3031f4598196f126e27946e);
+            
+    
+            var marker_19e0aa89fc59b5eeb3e4e0400a608890 = L.marker(
+                [12.999856, 77.67759],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_0ed46d7ebb1f610fda4dc50fa210e64f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83cdf3bf8d6c207b97d717196e00f7db = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_7f5e93fcf42e8a95384cc45397aecce9 = $(`<div id="html_7f5e93fcf42e8a95384cc45397aecce9" style="width: 100.0%; height: 100.0%;">K R Pura Metro Station</b><br>Distance: 12.75 km</div>`)[0];
+                popup_83cdf3bf8d6c207b97d717196e00f7db.setContent(html_7f5e93fcf42e8a95384cc45397aecce9);
+            
+        
+
+        marker_19e0aa89fc59b5eeb3e4e0400a608890.bindPopup(popup_83cdf3bf8d6c207b97d717196e00f7db)
+        ;
+
+        
+    
+    
+                marker_19e0aa89fc59b5eeb3e4e0400a608890.setIcon(icon_0ed46d7ebb1f610fda4dc50fa210e64f);
+            
+    
+            var marker_8dbd4657228660427c5c07987692b3e9 = L.marker(
+                [12.996413, 77.66848],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_72184d5151a326af7f6975ac519c5424 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a67c0c6779ebf3f57fe30388eb4f37e = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_0f2a1d98128cc6c05ce2487a32cfd456 = $(`<div id="html_0f2a1d98128cc6c05ce2487a32cfd456" style="width: 100.0%; height: 100.0%;">Benniganahalli Metro Station</b><br>Distance: 12.81 km</div>`)[0];
+                popup_2a67c0c6779ebf3f57fe30388eb4f37e.setContent(html_0f2a1d98128cc6c05ce2487a32cfd456);
+            
+        
+
+        marker_8dbd4657228660427c5c07987692b3e9.bindPopup(popup_2a67c0c6779ebf3f57fe30388eb4f37e)
+        ;
+
+        
+    
+    
+                marker_8dbd4657228660427c5c07987692b3e9.setIcon(icon_72184d5151a326af7f6975ac519c5424);
+            
+    
+            var marker_ea41af14e4b596a630562c0f4deb2171 = L.marker(
+                [13.0476720269148, 77.50032865618735],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_1159189a0414d3c55b060b34b6de87e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fca36681597ad09800e631e09a889fa6 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_afc043433a6ea6a51ff7777619fc6e83 = $(`<div id="html_afc043433a6ea6a51ff7777619fc6e83" style="width: 100.0%; height: 100.0%;">Nagasandra Metro Station</b><br>Distance: 16.26 km</div>`)[0];
+                popup_fca36681597ad09800e631e09a889fa6.setContent(html_afc043433a6ea6a51ff7777619fc6e83);
+            
+        
+
+        marker_ea41af14e4b596a630562c0f4deb2171.bindPopup(popup_fca36681597ad09800e631e09a889fa6)
+        ;
+
+        
+    
+    
+                marker_ea41af14e4b596a630562c0f4deb2171.setIcon(icon_1159189a0414d3c55b060b34b6de87e6);
+            
+    
+            var marker_959b4d97ce05eb0d77801be97d408291 = L.marker(
+                [12.990122792411247, 77.57289828924623],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_4f27788adfe280ad70c626342f090745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b34601b144834e9ad11acb567ad69c65 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_f5cb49308221e1794a79650eecb8141a = $(`<div id="html_f5cb49308221e1794a79650eecb8141a" style="width: 100.0%; height: 100.0%;">Metro Station Soap Factory</b><br>Distance: 14.78 km</div>`)[0];
+                popup_b34601b144834e9ad11acb567ad69c65.setContent(html_f5cb49308221e1794a79650eecb8141a);
+            
+        
+
+        marker_959b4d97ce05eb0d77801be97d408291.bindPopup(popup_b34601b144834e9ad11acb567ad69c65)
+        ;
+
+        
+    
+    
+                marker_959b4d97ce05eb0d77801be97d408291.setIcon(icon_4f27788adfe280ad70c626342f090745);
+            
+    
+            var marker_8d8b61b01bc069146ca4a1af25798c69 = L.marker(
+                [12.996506, 77.69273],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_f99ff75d02ab0949cf4459d636f30569 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_280ea020595e5a5a8c362999e2de872e = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_9859c8526f858a24bfb716ddb2944bbe = $(`<div id="html_9859c8526f858a24bfb716ddb2944bbe" style="width: 100.0%; height: 100.0%;">Singayyanapalya Metro Station</b><br>Distance: 13.74 km</div>`)[0];
+                popup_280ea020595e5a5a8c362999e2de872e.setContent(html_9859c8526f858a24bfb716ddb2944bbe);
+            
+        
+
+        marker_8d8b61b01bc069146ca4a1af25798c69.bindPopup(popup_280ea020595e5a5a8c362999e2de872e)
+        ;
+
+        
+    
+    
+                marker_8d8b61b01bc069146ca4a1af25798c69.setIcon(icon_f99ff75d02ab0949cf4459d636f30569);
+            
+    
+            var marker_1a0b12f8ffd275990249f3023dde6a62 = L.marker(
+                [12.993486, 77.703438],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_bc673574e7b03aa2eaa7433c6dca1972 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f48b479b0bbf90371a62fad3a45c41d = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_949e3b054adae7e2828292f92e8fc23c = $(`<div id="html_949e3b054adae7e2828292f92e8fc23c" style="width: 100.0%; height: 100.0%;">Garudacharpalya Metro Station</b><br>Distance: 14.57 km</div>`)[0];
+                popup_1f48b479b0bbf90371a62fad3a45c41d.setContent(html_949e3b054adae7e2828292f92e8fc23c);
+            
+        
+
+        marker_1a0b12f8ffd275990249f3023dde6a62.bindPopup(popup_1f48b479b0bbf90371a62fad3a45c41d)
+        ;
+
+        
+    
+    
+                marker_1a0b12f8ffd275990249f3023dde6a62.setIcon(icon_bc673574e7b03aa2eaa7433c6dca1972);
+            
+    
+            var marker_4db69d093bf35b72fa7c1b0bb2dd99ec = L.marker(
+                [12.981196, 77.709208],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_40d6836cf376e6fb0df067f285f05c97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9995aed330c6a4d67e6bd7829ac272a = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_4842c414dfd774da47713f955fe40f8a = $(`<div id="html_4842c414dfd774da47713f955fe40f8a" style="width: 100.0%; height: 100.0%;">Seetharam Palya Metro Station</b><br>Distance: 16.07 km</div>`)[0];
+                popup_a9995aed330c6a4d67e6bd7829ac272a.setContent(html_4842c414dfd774da47713f955fe40f8a);
+            
+        
+
+        marker_4db69d093bf35b72fa7c1b0bb2dd99ec.bindPopup(popup_a9995aed330c6a4d67e6bd7829ac272a)
+        ;
+
+        
+    
+    
+                marker_4db69d093bf35b72fa7c1b0bb2dd99ec.setIcon(icon_40d6836cf376e6fb0df067f285f05c97);
+            
+    
+            var marker_962dd765ff0eb0381a36b934d0222688 = L.marker(
+                [12.9750595, 77.569016],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_cc3b3b24d6415f7588cd9c9c2afc5427 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a45527382f1853085fc19566ddc977f8 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_0657bc4f958c57e5f4f84916bddcd663 = $(`<div id="html_0657bc4f958c57e5f4f84916bddcd663" style="width: 100.0%; height: 100.0%;">Nadaprabhu Kempegowda Metro Station Majestic</b><br>Distance: 16.45 km</div>`)[0];
+                popup_a45527382f1853085fc19566ddc977f8.setContent(html_0657bc4f958c57e5f4f84916bddcd663);
+            
+        
+
+        marker_962dd765ff0eb0381a36b934d0222688.bindPopup(popup_a45527382f1853085fc19566ddc977f8)
+        ;
+
+        
+    
+    
+                marker_962dd765ff0eb0381a36b934d0222688.setIcon(icon_cc3b3b24d6415f7588cd9c9c2afc5427);
+            
+    
+            var marker_3212bb401c2e04f24ebbe107f4398fbe = L.marker(
+                [12.960549, 77.574974],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_d148ff277bd3df3120c1f847d74c1483 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f1f8e2ee64a3cc23e05ca503497a2be = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_89e04999cb840078aaaf8b6ce411cf88 = $(`<div id="html_89e04999cb840078aaaf8b6ce411cf88" style="width: 100.0%; height: 100.0%;">K R Market Metro Station</b><br>Distance: 17.65 km</div>`)[0];
+                popup_8f1f8e2ee64a3cc23e05ca503497a2be.setContent(html_89e04999cb840078aaaf8b6ce411cf88);
+            
+        
+
+        marker_3212bb401c2e04f24ebbe107f4398fbe.bindPopup(popup_8f1f8e2ee64a3cc23e05ca503497a2be)
+        ;
+
+        
+    
+    
+                marker_3212bb401c2e04f24ebbe107f4398fbe.setIcon(icon_d148ff277bd3df3120c1f847d74c1483);
+            
+    
+            var marker_69d728e5815ad3058b567b9544109f16 = L.marker(
+                [12.995051, 77.757783],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_d27f6db6e1fb74158d97e5954b1e03df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_016c9f097e469cc6f334de75e9bb4be7 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_c6c81fc64f444a029fa9493ebbf48b9f = $(`<div id="html_c6c81fc64f444a029fa9493ebbf48b9f" style="width: 100.0%; height: 100.0%;">Whitefield Kadugodi Metro Station</b><br>Distance: 18.10 km</div>`)[0];
+                popup_016c9f097e469cc6f334de75e9bb4be7.setContent(html_c6c81fc64f444a029fa9493ebbf48b9f);
+            
+        
+
+        marker_69d728e5815ad3058b567b9544109f16.bindPopup(popup_016c9f097e469cc6f334de75e9bb4be7)
+        ;
+
+        
+    
+    
+                marker_69d728e5815ad3058b567b9544109f16.setIcon(icon_d27f6db6e1fb74158d97e5954b1e03df);
+            
+    
+            var marker_133ae4eb9ff06c7d37be6f8d7844c6b8 = L.marker(
+                [13.015745, 77.554042],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_651d2d665fb28455cca646ae99684fad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f36ff9c794201c3074f7962d7136c327 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_661e7dce4176713404f4e182bb72045e = $(`<div id="html_661e7dce4176713404f4e182bb72045e" style="width: 100.0%; height: 100.0%;">Mysore Sandal Metro Station</b><br>Distance: 13.61 km</div>`)[0];
+                popup_f36ff9c794201c3074f7962d7136c327.setContent(html_661e7dce4176713404f4e182bb72045e);
+            
+        
+
+        marker_133ae4eb9ff06c7d37be6f8d7844c6b8.bindPopup(popup_f36ff9c794201c3074f7962d7136c327)
+        ;
+
+        
+    
+    
+                marker_133ae4eb9ff06c7d37be6f8d7844c6b8.setIcon(icon_651d2d665fb28455cca646ae99684fad);
+            
+    
+            var marker_6c857c0a565987346a7c1b33915afcfe = L.marker(
+                [12.995587472652474, 77.65873258691049],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_cac43c71cd62e57b78637ea1fcbebdfa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6cd310c01cca64dc3664aff57b6c2b72 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_522dabebea1131f37e0281ec5c3e13b7 = $(`<div id="html_522dabebea1131f37e0281ec5c3e13b7" style="width: 100.0%; height: 100.0%;">Byappanahalli Metro Station</b><br>Distance: 12.66 km</div>`)[0];
+                popup_6cd310c01cca64dc3664aff57b6c2b72.setContent(html_522dabebea1131f37e0281ec5c3e13b7);
+            
+        
+
+        marker_6c857c0a565987346a7c1b33915afcfe.bindPopup(popup_6cd310c01cca64dc3664aff57b6c2b72)
+        ;
+
+        
+    
+    
+                marker_6c857c0a565987346a7c1b33915afcfe.setIcon(icon_cac43c71cd62e57b78637ea1fcbebdfa);
+            
+    
+            var marker_53d9b6725eae77127634a7791fca2217 = L.marker(
+                [13.007576212446846, 77.54866131203211],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_2e51cbfd87fe9a55645d4f4635008536 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b6696822cc34db509451dde67cc87b6 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_1ff8196891a5d2a16f5d318158fe19f3 = $(`<div id="html_1ff8196891a5d2a16f5d318158fe19f3" style="width: 100.0%; height: 100.0%;">Mahalakshmi Layout Metro Station</b><br>Distance: 14.67 km</div>`)[0];
+                popup_2b6696822cc34db509451dde67cc87b6.setContent(html_1ff8196891a5d2a16f5d318158fe19f3);
+            
+        
+
+        marker_53d9b6725eae77127634a7791fca2217.bindPopup(popup_2b6696822cc34db509451dde67cc87b6)
+        ;
+
+        
+    
+    
+                marker_53d9b6725eae77127634a7791fca2217.setIcon(icon_2e51cbfd87fe9a55645d4f4635008536);
+            
+    
+            var marker_3ecd4c7954783e2bd17cfc95688d348d = L.marker(
+                [12.986760106230797, 77.64698193612666],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_275a0cf95002e52059aadd5b74646181 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80b7761eb2c2d3ccb1c88373cee41b4a = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_e48095a6c9cd177409d021b1380a6677 = $(`<div id="html_e48095a6c9cd177409d021b1380a6677" style="width: 100.0%; height: 100.0%;">Swami Vivekananda Road Metro Station</b><br>Distance: 13.46 km</div>`)[0];
+                popup_80b7761eb2c2d3ccb1c88373cee41b4a.setContent(html_e48095a6c9cd177409d021b1380a6677);
+            
+        
+
+        marker_3ecd4c7954783e2bd17cfc95688d348d.bindPopup(popup_80b7761eb2c2d3ccb1c88373cee41b4a)
+        ;
+
+        
+    
+    
+                marker_3ecd4c7954783e2bd17cfc95688d348d.setIcon(icon_275a0cf95002e52059aadd5b74646181);
+            
+    
+            var marker_b1c4779cbef814383e75177f9a781d2c = L.marker(
+                [13.040285279430284, 77.53336640312837],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_c58eee259400d14e6eea7f920c43e3d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7bd46023155020c2782c8f0e83735267 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_b816d381e3c8e95623b9c20e34522435 = $(`<div id="html_b816d381e3c8e95623b9c20e34522435" style="width: 100.0%; height: 100.0%;">Jalahalli Metro Station</b><br>Distance: 13.51 km</div>`)[0];
+                popup_7bd46023155020c2782c8f0e83735267.setContent(html_b816d381e3c8e95623b9c20e34522435);
+            
+        
+
+        marker_b1c4779cbef814383e75177f9a781d2c.bindPopup(popup_7bd46023155020c2782c8f0e83735267)
+        ;
+
+        
+    
+    
+                marker_b1c4779cbef814383e75177f9a781d2c.setIcon(icon_c58eee259400d14e6eea7f920c43e3d1);
+            
+    
+            var marker_ba95600ff26fcbae95dee6598db26f2f = L.marker(
+                [12.981413, 77.72776],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_c6c9fe8ae2039dc315ce554d2d6d3334 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f4cd0f6616a5f625f9f23b8759bc671 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_9fd5492f5a6573951066540fe562f10d = $(`<div id="html_9fd5492f5a6573951066540fe562f10d" style="width: 100.0%; height: 100.0%;">Sri Sathya Sai Hospital Metro Station</b><br>Distance: 17.12 km</div>`)[0];
+                popup_0f4cd0f6616a5f625f9f23b8759bc671.setContent(html_9fd5492f5a6573951066540fe562f10d);
+            
+        
+
+        marker_ba95600ff26fcbae95dee6598db26f2f.bindPopup(popup_0f4cd0f6616a5f625f9f23b8759bc671)
+        ;
+
+        
+    
+    
+                marker_ba95600ff26fcbae95dee6598db26f2f.setIcon(icon_c6c9fe8ae2039dc315ce554d2d6d3334);
+            
+    
+            var marker_1e2c24167316949759e73ba895358002 = L.marker(
+                [12.978202548980768, 77.63897221982455],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_16f3e51a414c91c149b7b833c8180770 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3b86829394b43aa38d877de38073293 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_f89753c1e5d6099eaa30f2c164444557 = $(`<div id="html_f89753c1e5d6099eaa30f2c164444557" style="width: 100.0%; height: 100.0%;">Halsur Metro Station</b><br>Distance: 14.36 km</div>`)[0];
+                popup_e3b86829394b43aa38d877de38073293.setContent(html_f89753c1e5d6099eaa30f2c164444557);
+            
+        
+
+        marker_1e2c24167316949759e73ba895358002.bindPopup(popup_e3b86829394b43aa38d877de38073293)
+        ;
+
+        
+    
+    
+                marker_1e2c24167316949759e73ba895358002.setIcon(icon_16f3e51a414c91c149b7b833c8180770);
+            
+    
+            var marker_6a133e7417c5ba7341e2ca52d9d13ce5 = L.marker(
+                [12.998468243286805, 77.5573217908563],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_867e38165b16b3accd4ef5a19ef0dc9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae9e2db3d408989e9c0d244fafa2e20a = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_59b18bcfffd165b8b350767921a1ec8a = $(`<div id="html_59b18bcfffd165b8b350767921a1ec8a" style="width: 100.0%; height: 100.0%;">Kuvempu Road Metro Station</b><br>Distance: 14.88 km</div>`)[0];
+                popup_ae9e2db3d408989e9c0d244fafa2e20a.setContent(html_59b18bcfffd165b8b350767921a1ec8a);
+            
+        
+
+        marker_6a133e7417c5ba7341e2ca52d9d13ce5.bindPopup(popup_ae9e2db3d408989e9c0d244fafa2e20a)
+        ;
+
+        
+    
+    
+                marker_6a133e7417c5ba7341e2ca52d9d13ce5.setIcon(icon_867e38165b16b3accd4ef5a19ef0dc9e);
+            
+    
+            var marker_61616dc36a8d9dfbc26add40e4a23ade = L.marker(
+                [13.0078956, 77.5472232],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_ad145d9ebc9056d3ebbd882716681e34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c593ddcf346360f0010787ce5ac8bbd5 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_4ee19c3aa835ef8f1daebd87e886ccce = $(`<div id="html_4ee19c3aa835ef8f1daebd87e886ccce" style="width: 100.0%; height: 100.0%;">Sangeetha Gadgets - Mahalakshmi Layout (Metro Station)</b><br>Distance: 14.75 km</div>`)[0];
+                popup_c593ddcf346360f0010787ce5ac8bbd5.setContent(html_4ee19c3aa835ef8f1daebd87e886ccce);
+            
+        
+
+        marker_61616dc36a8d9dfbc26add40e4a23ade.bindPopup(popup_c593ddcf346360f0010787ce5ac8bbd5)
+        ;
+
+        
+    
+    
+                marker_61616dc36a8d9dfbc26add40e4a23ade.setIcon(icon_ad145d9ebc9056d3ebbd882716681e34);
+            
+    
+            var marker_096002a2a946f451360aae739b1f6810 = L.marker(
+                [12.97300903052956, 77.61938740112257],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_8e825c54a65a97aa1b9bce2c838b9482 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f59eafdf4253afe84be8570f9c4a2a4e = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_ddb24fcba50a5270f956b29b5d97d873 = $(`<div id="html_ddb24fcba50a5270f956b29b5d97d873" style="width: 100.0%; height: 100.0%;">Halasuru Metro station</b><br>Distance: 15.06 km</div>`)[0];
+                popup_f59eafdf4253afe84be8570f9c4a2a4e.setContent(html_ddb24fcba50a5270f956b29b5d97d873);
+            
+        
+
+        marker_096002a2a946f451360aae739b1f6810.bindPopup(popup_f59eafdf4253afe84be8570f9c4a2a4e)
+        ;
+
+        
+    
+    
+                marker_096002a2a946f451360aae739b1f6810.setIcon(icon_8e825c54a65a97aa1b9bce2c838b9482);
+            
+    
+            var marker_3e85c1ab2c5fe7cb668900f0968dbf79 = L.marker(
+                [12.987621, 77.738095],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_58d3ec9ebab6152d40423f8fe1568b2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e06c6552ee0f6bb89625ae651ac6fd5e = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_d4dccc283ee3c9d9095aa587dd4f198b = $(`<div id="html_d4dccc283ee3c9d9095aa587dd4f198b" style="width: 100.0%; height: 100.0%;">Pattandur Agrahara Metro Station</b><br>Distance: 17.25 km</div>`)[0];
+                popup_e06c6552ee0f6bb89625ae651ac6fd5e.setContent(html_d4dccc283ee3c9d9095aa587dd4f198b);
+            
+        
+
+        marker_3e85c1ab2c5fe7cb668900f0968dbf79.bindPopup(popup_e06c6552ee0f6bb89625ae651ac6fd5e)
+        ;
+
+        
+    
+    
+                marker_3e85c1ab2c5fe7cb668900f0968dbf79.setIcon(icon_58d3ec9ebab6152d40423f8fe1568b2b);
+            
+    
+            var marker_f71a95666d0ed3de24de6bf55835f734 = L.marker(
+                [12.988833, 77.71151],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_bb7c2f5cd1cbd1f7ad88a52d38a5b893 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a770356766904c82027ad0a3258e2ee3 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_6f1afab2416fcd6955a7fe7cfc18ae95 = $(`<div id="html_6f1afab2416fcd6955a7fe7cfc18ae95" style="width: 100.0%; height: 100.0%;">Hoodi Metro Station</b><br>Distance: 15.46 km</div>`)[0];
+                popup_a770356766904c82027ad0a3258e2ee3.setContent(html_6f1afab2416fcd6955a7fe7cfc18ae95);
+            
+        
+
+        marker_f71a95666d0ed3de24de6bf55835f734.bindPopup(popup_a770356766904c82027ad0a3258e2ee3)
+        ;
+
+        
+    
+    
+                marker_f71a95666d0ed3de24de6bf55835f734.setIcon(icon_bb7c2f5cd1cbd1f7ad88a52d38a5b893);
+            
+    
+            var marker_f75c52dcc99c5e236dcf9aae5cbdf195 = L.marker(
+                [12.974097, 77.584015],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_dfbd3c012e78e898108c474c7b2102fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_224c111c74535774896f76d1cffa17f7 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_0ce38911c6c04b8ba308cfd9124cbe49 = $(`<div id="html_0ce38911c6c04b8ba308cfd9124cbe49" style="width: 100.0%; height: 100.0%;">Shri M Visvesvaraya Metro Station</b><br>Distance: 15.89 km</div>`)[0];
+                popup_224c111c74535774896f76d1cffa17f7.setContent(html_0ce38911c6c04b8ba308cfd9124cbe49);
+            
+        
+
+        marker_f75c52dcc99c5e236dcf9aae5cbdf195.bindPopup(popup_224c111c74535774896f76d1cffa17f7)
+        ;
+
+        
+    
+    
+                marker_f75c52dcc99c5e236dcf9aae5cbdf195.setIcon(icon_dfbd3c012e78e898108c474c7b2102fb);
+            
+    
+            var marker_ae7c6ae06b7afa260f4858286e7c968e = L.marker(
+                [12.966987, 77.57484],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_88c82e3eb8837281d9def5a9a433409d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_073116e82116acdade4ef79630fbd5c2 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_9605fffa4daccda2f958d490c6fdf2c0 = $(`<div id="html_9605fffa4daccda2f958d490c6fdf2c0" style="width: 100.0%; height: 100.0%;">Chickpet Metro Station</b><br>Distance: 17.00 km</div>`)[0];
+                popup_073116e82116acdade4ef79630fbd5c2.setContent(html_9605fffa4daccda2f958d490c6fdf2c0);
+            
+        
+
+        marker_ae7c6ae06b7afa260f4858286e7c968e.bindPopup(popup_073116e82116acdade4ef79630fbd5c2)
+        ;
+
+        
+    
+    
+                marker_ae7c6ae06b7afa260f4858286e7c968e.setIcon(icon_88c82e3eb8837281d9def5a9a433409d);
+            
+    
+            var marker_50afedf6b0fc63b64ef04e19e21b7b6e = L.marker(
+                [12.975671984649798, 77.5559642968908],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_b9140dcf356ac2062e04fd14fd548a0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82b2f9091d80fa3328a937083c10b41f = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_203b1206ecf4820efa5e88b1b3295702 = $(`<div id="html_203b1206ecf4820efa5e88b1b3295702" style="width: 100.0%; height: 100.0%;">Magadi Road Metro Station</b><br>Distance: 17.08 km</div>`)[0];
+                popup_82b2f9091d80fa3328a937083c10b41f.setContent(html_203b1206ecf4820efa5e88b1b3295702);
+            
+        
+
+        marker_50afedf6b0fc63b64ef04e19e21b7b6e.bindPopup(popup_82b2f9091d80fa3328a937083c10b41f)
+        ;
+
+        
+    
+    
+                marker_50afedf6b0fc63b64ef04e19e21b7b6e.setIcon(icon_b9140dcf356ac2062e04fd14fd548a0e);
+            
+    
+            var marker_64f0fc5305fca6a578b9453e7aca352e = L.marker(
+                [12.977606, 77.71554],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_4b82d1af875381c53144615e5c697e8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0c5a89198b616025ea846943ed94512 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_57efc83299b8b79e84a6045be71d5491 = $(`<div id="html_57efc83299b8b79e84a6045be71d5491" style="width: 100.0%; height: 100.0%;">Kundalhalli Metro Station</b><br>Distance: 16.75 km</div>`)[0];
+                popup_a0c5a89198b616025ea846943ed94512.setContent(html_57efc83299b8b79e84a6045be71d5491);
+            
+        
+
+        marker_64f0fc5305fca6a578b9453e7aca352e.bindPopup(popup_a0c5a89198b616025ea846943ed94512)
+        ;
+
+        
+    
+    
+                marker_64f0fc5305fca6a578b9453e7aca352e.setIcon(icon_4b82d1af875381c53144615e5c697e8c);
+            
+    
+            var marker_01647c75cd0a4b0cb78d686c6f2c9e76 = L.marker(
+                [12.9758625, 77.5657],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_bce26055919443cc1c671cc40ce992fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ad9579b89f6314594ff189e54ddda2f = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_5bca9d4c8939485374cc69a78cbd08ca = $(`<div id="html_5bca9d4c8939485374cc69a78cbd08ca" style="width: 100.0%; height: 100.0%;">Bangalore City Metro Station</b><br>Distance: 16.54 km</div>`)[0];
+                popup_4ad9579b89f6314594ff189e54ddda2f.setContent(html_5bca9d4c8939485374cc69a78cbd08ca);
+            
+        
+
+        marker_01647c75cd0a4b0cb78d686c6f2c9e76.bindPopup(popup_4ad9579b89f6314594ff189e54ddda2f)
+        ;
+
+        
+    
+    
+                marker_01647c75cd0a4b0cb78d686c6f2c9e76.setIcon(icon_bce26055919443cc1c671cc40ce992fe);
+            
+    
+            var marker_2644e4d75919fe47ae79517389b817f8 = L.marker(
+                [12.975978, 77.725907],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_9f0ff72f3ce796747263230c44235f28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_646cccba52ca454d76f7839221aff1cb = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_00faf245d37541886cfc16c45e9c4b76 = $(`<div id="html_00faf245d37541886cfc16c45e9c4b76" style="width: 100.0%; height: 100.0%;">nallura metro station</b><br>Distance: 17.50 km</div>`)[0];
+                popup_646cccba52ca454d76f7839221aff1cb.setContent(html_00faf245d37541886cfc16c45e9c4b76);
+            
+        
+
+        marker_2644e4d75919fe47ae79517389b817f8.bindPopup(popup_646cccba52ca454d76f7839221aff1cb)
+        ;
+
+        
+    
+    
+                marker_2644e4d75919fe47ae79517389b817f8.setIcon(icon_9f0ff72f3ce796747263230c44235f28);
+            
+    
+            var marker_a4f8c7aeb8ac870df103d7f8d701e98d = L.marker(
+                [13.05723, 77.4724],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_197c338c65bd73562d5dbd44a07cdb48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e30593999b76d5c264b436dceb145262 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_6c91970a83aa4ed8cdaf2c4a36532b1a = $(`<div id="html_6c91970a83aa4ed8cdaf2c4a36532b1a" style="width: 100.0%; height: 100.0%;">Madavara Metro Station</b><br>Distance: 18.71 km</div>`)[0];
+                popup_e30593999b76d5c264b436dceb145262.setContent(html_6c91970a83aa4ed8cdaf2c4a36532b1a);
+            
+        
+
+        marker_a4f8c7aeb8ac870df103d7f8d701e98d.bindPopup(popup_e30593999b76d5c264b436dceb145262)
+        ;
+
+        
+    
+    
+                marker_a4f8c7aeb8ac870df103d7f8d701e98d.setIcon(icon_197c338c65bd73562d5dbd44a07cdb48);
+            
+    
+            var marker_0d645e5079f933d3344b744864021e67 = L.marker(
+                [12.985677, 77.74692],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_7e99338c81c372f1b7e3ea7cb3fd16f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02890505f45c4bbb39913213975667fd = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_63310f79da9fe4a0cef587f8c26214c1 = $(`<div id="html_63310f79da9fe4a0cef587f8c26214c1" style="width: 100.0%; height: 100.0%;">Kadugodi Tree Park Metro Station</b><br>Distance: 18.04 km</div>`)[0];
+                popup_02890505f45c4bbb39913213975667fd.setContent(html_63310f79da9fe4a0cef587f8c26214c1);
+            
+        
+
+        marker_0d645e5079f933d3344b744864021e67.bindPopup(popup_02890505f45c4bbb39913213975667fd)
+        ;
+
+        
+    
+    
+                marker_0d645e5079f933d3344b744864021e67.setIcon(icon_7e99338c81c372f1b7e3ea7cb3fd16f5);
+            
+    
+            var marker_e6d62bec03988dd21ee007b1d4f661dc = L.marker(
+                [12.99651890735885, 77.5634141552743],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_87ca44251283db16c43750bf242d2ee2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d79ba65999d7ba7bc210baf843117a5 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_cf427c6ddda6f6ec73bbe23d7359a09b = $(`<div id="html_cf427c6ddda6f6ec73bbe23d7359a09b" style="width: 100.0%; height: 100.0%;">Metro Srirampura</b><br>Distance: 14.69 km</div>`)[0];
+                popup_2d79ba65999d7ba7bc210baf843117a5.setContent(html_cf427c6ddda6f6ec73bbe23d7359a09b);
+            
+        
+
+        marker_e6d62bec03988dd21ee007b1d4f661dc.bindPopup(popup_2d79ba65999d7ba7bc210baf843117a5)
+        ;
+
+        
+    
+    
+                marker_e6d62bec03988dd21ee007b1d4f661dc.setIcon(icon_87ca44251283db16c43750bf242d2ee2);
+            
+    
+            var marker_2697130ed3f2bb3c462ac2bec0743079 = L.marker(
+                [13.100829, 77.598442],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_93a0ec21ece976cad2fdd710304435c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_758934ff9cfa0c9b05f91ca6d5c32a87 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_b60826be751389aaffe55a09839ab970 = $(`<div id="html_b60826be751389aaffe55a09839ab970" style="width: 100.0%; height: 100.0%;">Metro Bakery</b><br>Distance: 4.26 km</div>`)[0];
+                popup_758934ff9cfa0c9b05f91ca6d5c32a87.setContent(html_b60826be751389aaffe55a09839ab970);
+            
+        
+
+        marker_2697130ed3f2bb3c462ac2bec0743079.bindPopup(popup_758934ff9cfa0c9b05f91ca6d5c32a87)
+        ;
+
+        
+    
+    
+                marker_2697130ed3f2bb3c462ac2bec0743079.setIcon(icon_93a0ec21ece976cad2fdd710304435c0);
+            
+    
+            var marker_f43586d9314f1fbb72d0ba3aa7a15fea = L.marker(
+                [13.083414, 77.59753],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_5f53e4363562c23fd8652662dac70979 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_666885d7ede8c83277feb66dbfaa9f7a = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_fe3fdb96ef50f0f6419a08da3ae3e538 = $(`<div id="html_fe3fdb96ef50f0f6419a08da3ae3e538" style="width: 100.0%; height: 100.0%;">Metro Roadways</b><br>Distance: 5.07 km</div>`)[0];
+                popup_666885d7ede8c83277feb66dbfaa9f7a.setContent(html_fe3fdb96ef50f0f6419a08da3ae3e538);
+            
+        
+
+        marker_f43586d9314f1fbb72d0ba3aa7a15fea.bindPopup(popup_666885d7ede8c83277feb66dbfaa9f7a)
+        ;
+
+        
+    
+    
+                marker_f43586d9314f1fbb72d0ba3aa7a15fea.setIcon(icon_5f53e4363562c23fd8652662dac70979);
+            
+    
+            var marker_689b2952085925f2be6f0f63e64b0df1 = L.marker(
+                [13.121712, 77.630622],
+                {
+}
+            ).addTo(map_be2af121ca325b761e29e80ce3327f65);
+        
+    
+            var icon_179c4dfc9fc94beb08cea4a7ff5362c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7c047c8bc7fba1ffd2cb12bbeccb747 = L.popup({
+  "maxWidth": 200,
+  "minWidth": 150,
+});
+
+        
+            
+                var html_8da69d5f1fca2bce3066dc2d5613ada2 = $(`<div id="html_8da69d5f1fca2bce3066dc2d5613ada2" style="width: 100.0%; height: 100.0%;">Annapoorna Service Station</b><br>Distance: 1.67 km</div>`)[0];
+                popup_a7c047c8bc7fba1ffd2cb12bbeccb747.setContent(html_8da69d5f1fca2bce3066dc2d5613ada2);
+            
+        
+
+        marker_689b2952085925f2be6f0f63e64b0df1.bindPopup(popup_a7c047c8bc7fba1ffd2cb12bbeccb747)
+        ;
+
+        
+    
+    
+                marker_689b2952085925f2be6f0f63e64b0df1.setIcon(icon_179c4dfc9fc94beb08cea4a7ff5362c9);
+            
+</script>
+</html>
